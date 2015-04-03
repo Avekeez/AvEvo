@@ -1,0 +1,16 @@
+[
+{
+  "modid": "avevo",
+  "name": "AvEvo",
+  "description": "A mod that adds in stuff",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Avekeez"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
