@@ -19,7 +19,8 @@ public class Jetpack extends ItemArmor {
 	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) {
 		if (itemStack.getItem() == AvEvo.jetpack) {
 			if (Keyboard.isKeyDown(Keyboard.KEY_SPACE)) {
-				player.playerLocation.posY+= 1;
+				System.out.println("SPAAAAAAAAAAAAAAAAAAAAAACE");
+				player.setPosition(player.posX, player.posY + 1, player.posZ);
 			}
 		}
 	}
